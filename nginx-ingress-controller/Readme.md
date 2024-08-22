@@ -38,3 +38,6 @@ helm install ingress-nginx ingress-nginx/ingress-nginx \
 Please verify the service with type: LoadBalancer. Wait until it displays the external IP address.
 
 Once the setup is complete, open your web browser and enter the external IP address. If you see a "404" error, it indicates that the configuration is correctly set up.
+
+
+**NOTE**: Ouathproxy:- https://www.talkingquickly.co.uk/webapp-authentication-keycloak-OAuth2-proxy-nginx-ingress-kubernetes
