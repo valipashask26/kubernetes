@@ -30,7 +30,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx \
         --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux \
         --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux \
         --set controller.service.externalTrafficPolicy=Local \
-        --set controller.service.loadBalancerIP="<Ipaddress>"
+        --set controller.service.loadBalancerIP="<Ipaddress>"                     ##ingress-nginx-4.9.0 (CHARTVERSION)
 ```
 
 **NOTE**: before executing the above step make sure you have already created a Public Ipaddress
